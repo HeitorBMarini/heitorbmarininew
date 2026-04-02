@@ -4,14 +4,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Code3D from "./Code3d";
 import AnimatedText from "./AnimatedText";
+import StarBackground from "./StarBackground";
 
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden text-white">
       <div className="absolute inset-0 z-0">
+        <StarBackground />
+      </div>
+      <div className="absolute inset-0 z-0">
         <Code3D />
       </div>
-
 
       <div className="relative z-20 h-full flex items-center px-6 md:px-20">
         <div className="grid md:grid-cols-2 gap-10 items-center w-full max-w-6xl mx-auto">
@@ -27,7 +30,6 @@ export default function Hero() {
               tecnologia. Apaixonado por criar experiências digitais incríveis e
               impactar positivamente a vida das pessoas através da tecnologia.
             </p>
-           
           </motion.div>
 
           <motion.div
