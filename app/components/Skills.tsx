@@ -11,7 +11,7 @@ import {
   SiPhp,
   SiNodedotjs,
   SiAngular,
-  SiMysql,
+  SiMysql, SiPowers, SiGrafana
 } from "react-icons/si";
 
 const skills = [
@@ -25,6 +25,8 @@ const skills = [
   { name: "PHP", icon: SiPhp },
   { name: "Angular", icon: SiAngular },
   { name: "MySQL", icon: SiMysql },
+  { name: "Power BI", icon: SiPowers },
+  { name: "Grafana", icon: SiGrafana },
 ];
 
 export default function Skills() {

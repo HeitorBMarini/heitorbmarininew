@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Footer() {
@@ -22,7 +22,7 @@ export default function Footer() {
 
           {/* GitHub */}
           <motion.a
-            href="https://github.com/seuuser"
+            href="https://github.com/HeitorBMarini"
             target="_blank"
             whileHover={{ scale: 1.2 }}
             className="text-gray-400 hover:text-white transition"
@@ -32,7 +32,7 @@ export default function Footer() {
 
           {/* LinkedIn */}
           <motion.a
-            href="https://linkedin.com/in/seuuser"
+            href="https://www.linkedin.com/in/heitor-borba-marini/"
             target="_blank"
             whileHover={{ scale: 1.2 }}
             className="text-gray-400 hover:text-blue-400 transition"
@@ -40,16 +40,7 @@ export default function Footer() {
             <FaLinkedin size={22} />
           </motion.a>
 
-          {/* WhatsApp */}
-          <motion.a
-            href="https://wa.me/SEUNUMERO"
-            target="_blank"
-            whileHover={{ scale: 1.2 }}
-            className="text-gray-400 hover:text-green-400 transition"
-          >
-            <FaWhatsapp size={22} />
-          </motion.a>
-
+         
         </div>
       </div>
     </footer>
